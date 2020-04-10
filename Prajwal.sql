@@ -12,7 +12,7 @@ SET time_zone = "+00:00";
 
 
 CREATE TABLE `users` (
-  `id` int(10) NOT NULL,
+  `id` int(20) NOT NULL,
   `first_name` varchar(30) NOT NULL,
   `last_name` varchar(20) NOT NULL,
   `email` varchar(30) NOT NULL
@@ -38,5 +38,5 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 COMMIT;
